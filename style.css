@@ -116,7 +116,6 @@ body.wrong {
 
 @media (max-width: 900px) {
 body {
-    color: yellow;
     padding: 20px;
 }
 .btn-grid{
