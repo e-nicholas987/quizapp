@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js">  </script>
+    <title>Quiz App by e-nicholas987</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="question-container" class="hide question-container">            
+            <div class="question-header">
+                <div>Question:<span id="question-count">1</span>/5</div>
+                <div>Current score:<span id="score">0</span>/10</div>
+            </div>
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div id="final-score-container" class="hide">
+            <span>Final score</span>
+            <div class="final-score"><span id="final-score">0</span>/10</div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+            <button id="end-btn" class="end-btn btn hide">End Quiz</button>
+        </div>
+    </div>
+</body>
+
+</html>
